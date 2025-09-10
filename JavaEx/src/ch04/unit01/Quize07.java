@@ -30,7 +30,7 @@ public class Quize07 {
 			}
 		} else {	
 			msg = "과락";
-		}
+		} 
 		
 		System.out.println("이름 :" + name);
 		System.out.printf("세과목 점수 %d %d %d\n", score1, score2, score3);

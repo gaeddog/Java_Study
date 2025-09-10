@@ -31,7 +31,6 @@ public class Quize06 {
 		
 		System.out.printf("%d %c %d = %d",a,opr,b,result);
 		
-		
 		sc.close();
 	}
 

@@ -12,7 +12,7 @@ public class Quize01 {
 		a = sc.nextInt();
 		b = sc.nextInt();
 		
-		int temp;
+		int temp; // 스왑을 위한 변수
 		
 		if(a < b) {
 			temp = a;

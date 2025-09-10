@@ -6,15 +6,15 @@ public class Quize08 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String studentNo;
-		String name;
-		int midScore;
-		int lastScore;
-		int absentCnt;
-		int reportScore;
-		int totalScore;
-		int absentScore;
-		char hakjum;
+		String studentNo;  // 학번
+		String name;       // 이름
+		int midScore;      // 중간고사점수
+		int lastScore;     // 기말고사점수
+		int absentCnt;     // 결석회수
+		int reportScore;   // 레포트점수
+		int totalScore;    // 총점
+		int absentScore;   // 출석점수
+		char hakjum;       // 학점
 		
 		System.out.println("학번\t 이름\t");
 		
@@ -46,6 +46,7 @@ public class Quize08 {
         	absentScore = 100;
         }
         
+        // 이부분이 마음에 안듭니다.
 		totalScore = (int)(midScore * 0.4) + (int)(lastScore * 0.4 ) + (int)(absentScore * 0.1) + (int)(reportScore * 0.1);
 
 		if (totalScore >= 90) {
