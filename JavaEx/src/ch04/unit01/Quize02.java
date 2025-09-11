@@ -7,6 +7,7 @@ public class Quize02 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int year;
+		String s;
 		
 		System.out.print("년도 입력 ? ");
 		year = sc.nextInt();
@@ -17,9 +18,13 @@ public class Quize02 {
 		 */
 		
 		if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
-			System.out.println(year + "년은 윤년입니다.");
-		} else
-			System.out.println(year + "년은 평년입니다.");
+			s = "윤년";
+		} else {
+			s = "평년";
+		}
+		
+		System.out.println(year + "년도는 " + s + "입니다." );
+		
 		sc.close();
 
 	}

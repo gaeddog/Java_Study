@@ -4,5 +4,5 @@
 /**
  * 
  */
-module JavaEx {
+module javaEx {
 }

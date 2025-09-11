@@ -11,12 +11,12 @@ public class Quize03 {
 		
 		System.out.print("한문자 ? ");
 		ch = sc.next().charAt(0);
-		b = ch;
 		
+		b = ch;
 		if(ch >= 'A' && ch <= 'Z') {
-			b = (char)(ch + 32);
+			b += 32;
 		} else if(ch >= 'a' && ch <= 'z') {
-			b = (char)(ch - 32);
+			b -= 32;
 		} 
 		System.out.println(ch + " => " + b);
 	

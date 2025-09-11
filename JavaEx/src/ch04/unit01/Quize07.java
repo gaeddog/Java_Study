@@ -23,7 +23,7 @@ public class Quize07 {
 		total = score1 + score2 + score3; 
 		
 		if( 40 <= score1 && 40 <= score2  && 40 <= score3) {
-			if((total/3) > 60) {
+			if((total/3) >= 60) {
 				msg = "합격";
 			} else {
 				msg = "불합격";
